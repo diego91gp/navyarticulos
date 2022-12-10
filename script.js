@@ -12,13 +12,13 @@ function muestra(){
       menuizq.style.left="0";
       wrapper.style.left="100px";
       document.body.style.overflow="hidden";
-      setInterval(tapa.classList.replace("destapa","tapa"),5000);
+      tapa.classList.replace("destapa","tapa");
       
    } else {
       menuizq.style.left="-100px";
       wrapper.style.left="0";
       document.body.style.overflowY="scroll";
-      setInterval(tapa.classList.replace("tapa","destapa"),5000);
+      tapa.classList.replace("tapa","destapa");
 
    }
    // tapa.classList.replace("destapa","tapa");
