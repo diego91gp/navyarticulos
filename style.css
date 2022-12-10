@@ -115,7 +115,7 @@ height: 100%;
 
 #navgrande li:hover a::after{
     width: 25%; 
-    height: 5px; 
+    height: 2px; 
     background-color: var(--resalta);
 }
 
